@@ -119,7 +119,7 @@ function App() {
             <h2 className="font-semibold text-4xl uppercase">Food Recipes</h2>
             <h3 className="font-semibold text-md pt-3 justify-center">
               {" "}
-              by ABDIRAHMAN SIYAD
+              by ABDIRAHMAN NUR
             </h3>
           </header>
 
@@ -140,7 +140,7 @@ function App() {
                   </span>
                 </div>
                 <div className="badge">
-                  <span> 25 mins</span>
+                  <span> 16 mins</span>
                 </div>
               </div>
 
@@ -155,7 +155,7 @@ function App() {
                   </span>
                 </div>
                 <div className="badge">
-                  <span> 25 mins</span>
+                  <span> 30 mins</span>
                 </div>
               </div>
 
@@ -231,14 +231,14 @@ function App() {
 
             {/* END OF CARDS */}
 
-            <h4 className="font-bold mt-4 pb-2 border-b border-gray-300">
-              Most Popular Recipes
+            <h4 className="font-bold mt-4 pb-2 border-b border-gray-300 text-xl pt-5 text-center ">
+              Most Popular Recipes Coming Soon!
             </h4>
 
             <div className="mt-8">{/* CARDS GO HERE */}</div>
 
             <div className="flex justify-center text-black text-sm">
-              <div className="button bg-gray-300 hover:shadow-inner">
+              <div className="button bg-gray-300 border-gray-700 border-2 hover:bg-gray-400 hover:shadow-inner">
                 LOAD MORE RECIPES!
               </div>
             </div>
