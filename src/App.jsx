@@ -117,7 +117,10 @@ function App() {
 
           <header className="pb-5 text-center md:text-left">
             <h2 className="font-semibold text-4xl uppercase">Food Recipes</h2>
-            <h3 className="font-semibold text-md pt-3 justify-center"> by ABDIRAHMAN NUR</h3>
+            <h3 className="font-semibold text-md pt-3 justify-center">
+              {" "}
+              by ABDIRAHMAN SIYAD
+            </h3>
           </header>
 
           <div>
@@ -169,7 +172,6 @@ function App() {
                 </div>
               </div>
 
-              
               <div className="card">
                 <img className="img" src="/src/img/vegetables.avif" alt="" />
                 <div className="m-4">
@@ -183,11 +185,12 @@ function App() {
                 </div>
               </div>
 
-              
               <div className="card">
                 <img className="img" src="/src/img/cake.avif" alt="" />
                 <div className="m-4">
-                  <span className="font-bold uppercase">The Cake of Your Life! </span>
+                  <span className="font-bold uppercase">
+                    The Cake of Your Life!{" "}
+                  </span>
                   <span className="block text-gray-500 text-sm lowercase">
                     RECIPE BY ABDIRAHMAN NUR
                   </span>
@@ -197,11 +200,12 @@ function App() {
                 </div>
               </div>
 
-              
               <div className="card">
                 <img className="img" src="/src/img/pizza.avif" alt="" />
                 <div className="m-4">
-                  <span className="font-bold uppercase">PIZZA PIZZA, me so hungy!</span>
+                  <span className="font-bold uppercase">
+                    PIZZA PIZZA, me so hungy!
+                  </span>
                   <span className="block text-gray-500 text-sm lowercase">
                     RECIPE BY ABDIRAHMAN NUR
                   </span>
@@ -211,7 +215,6 @@ function App() {
                 </div>
               </div>
 
-              
               <div className="card">
                 <img className="img" src="/src/img/eggs.avif" alt="" />
                 <div className="m-4">
@@ -226,7 +229,6 @@ function App() {
               </div>
             </div>
 
-            
             {/* END OF CARDS */}
 
             <h4 className="font-bold mt-4 pb-2 border-b border-gray-300">
