@@ -160,7 +160,7 @@ function App() {
               </div>
 
               <div className="card">
-                <img className="img" src="/src/img/burger.avif" alt="" />
+                <img className="img" src="/src/img/chicken.jpg" alt="" />
                 <div className="m-4">
                   <span className="font-bold uppercase">5 BEAN CHILI STEW</span>
                   <span className="block text-gray-500 text-sm lowercase">
