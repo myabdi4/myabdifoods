@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --timer: url(xmlns="http://www.w3.org/2000/svg"fill="none"viewBox="0 0 24 24"strokeWidth={1.5}stroke="currentColor"className="w-6 h-6"><pathstrokeLinecap="round"strokeLinejoin="round"d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z");
+}
+
+.timer-logo {
+  background: var(--timer);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "roboto";
+  background-color: lightgray;
+  color: rgb(78, 52, 52);
+}
+
+.img {
+  @apply w-full h-64 sm:h-72 object-cover;
+}
+
+.button {
+  @apply p-2 rounded-2xl 
+   hover:cursor-pointer tracking-wider;
+}
+
+.card {
+  @apply relative bg-gray-100 rounded overflow-hidden shadow-md hover:cursor-pointer hover:shadow-2xl;
+}
+
+.badge {
+  @apply bg-gray-500 text-gray-50 text-xs uppercase font-bold 
+  rounded-full p-2 text-center absolute top-0 m-5;
+}
