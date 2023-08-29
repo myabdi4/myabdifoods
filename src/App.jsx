@@ -9,7 +9,7 @@ function App() {
           <nav>
             <div>
               <h1 className="flex gap-2 font-bold uppercase justify-around p-5 border-b border-gray-300 hover:text-gray-500">
-                <a href="/" className=" ">
+                <a href="/" className="">
                   MYABDI FOODS
                 </a>
                 <div className="md:hidden hover:cursor-pointer hover:bg-none">
@@ -74,7 +74,7 @@ function App() {
                 </a>
               </li>
               <li>
-                <a href="#" className="flex gap-2 border-r-4 border-gray-200">
+                <a href="#" className="flex gap-2 border-r-4 border-gray-200 flex-col">
                   <div>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -134,7 +134,7 @@ function App() {
               <div className="card">
                 <img className="img" src="/src/img/stew.jpeg" alt="" />
                 <div className="m-4">
-                  <span className="font-bold uppercase">5 BEAN CHILI STEW</span>
+                  <span className="font-bold uppercase">JPEG FILE WITH STEW</span>
                   <span className="block text-gray-500 text-sm lowercase">
                     RECIPE BY ABDIRAHMAN NUR
                   </span>
