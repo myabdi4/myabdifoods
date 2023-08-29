@@ -74,7 +74,7 @@ function App() {
                 </a>
               </li>
               <li>
-                <a href="#" className="flex gap-2 border-r-4 border-gray-200 flex-col">
+                <a href="#" className="flex gap-2 border-r-4 border-gray-200">
                   <div>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -132,9 +132,9 @@ function App() {
               {/* CARD GOES HERE */}
 
               <div className="card">
-                <img className="img" src="/src/img/stew.jpeg" alt="" />
+                <img className="img" src="img/stew.jpeg" alt="" />
                 <div className="m-4">
-                  <span className="font-bold uppercase">JPEG FILE WITH STEW</span>
+                  <span className="font-bold uppercase">READY MADE STEW!</span>
                   <span className="block text-gray-500 text-sm lowercase">
                     RECIPE BY ABDIRAHMAN NUR
                   </span>
@@ -147,7 +147,7 @@ function App() {
               {/*  */}
 
               <div className="card flex flex-col">
-                <img className="img" src="/src/img/stewsoup.jpg" alt="" />
+                <img className="img" src="img/stewsoup.jpg" alt="" />
                 <div className="m-4">
                   <span className="font-bold uppercase">5 BEAN CHILI STEW</span>
                   <span className="block text-gray-500 text-sm lowercase">
@@ -160,9 +160,11 @@ function App() {
               </div>
 
               <div className="card">
-                <img className="img" src="/src/img/chicken.jpg" alt="" />
+                <img className="img" src="img/chicken.jpg" alt="" />
                 <div className="m-4">
-                  <span className="font-bold uppercase">OH CHICKE MY CHICKEN!</span>
+                  <span className="font-bold uppercase">
+                    OH CHICKE MY CHICKEN!
+                  </span>
                   <span className="block text-gray-500 text-sm lowercase">
                     RECIPE BY ABDIRAHMAN NUR
                   </span>
@@ -173,7 +175,7 @@ function App() {
               </div>
 
               <div className="card">
-                <img className="img" src="/src/img/vegetables.avif" alt="" />
+                <img className="img" src="img/vegetables.avif" alt="" />
                 <div className="m-4">
                   <span className="font-bold uppercase">Vegetable Salad</span>
                   <span className="block text-gray-500 text-sm lowercase">
@@ -186,7 +188,7 @@ function App() {
               </div>
 
               <div className="card">
-                <img className="img" src="/src/img/cake.avif" alt="" />
+                <img className="img" src="img/cake.avif" alt="" />
                 <div className="m-4">
                   <span className="font-bold uppercase">
                     The Cake of Your Life!{" "}
@@ -201,7 +203,7 @@ function App() {
               </div>
 
               <div className="card">
-                <img className="img" src="/src/img/pizza.avif" alt="" />
+                <img className="img" src="img/pizza.avif" alt="" />
                 <div className="m-4">
                   <span className="font-bold uppercase">
                     PIZZA PIZZA, me so hungy!
@@ -216,7 +218,7 @@ function App() {
               </div>
 
               <div className="card">
-                <img className="img" src="src/img/eggs.avif" alt="" />
+                <img className="img" src="img/eggs.avif" alt="" />
                 <div className="m-4">
                   <span className="font-bold uppercase">The Perfect EGG!</span>
                   <span className="block text-gray-500 text-sm lowercase">
