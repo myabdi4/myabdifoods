@@ -98,7 +98,7 @@ function App() {
           </nav>
         </div>
 
-        <main className="px-16 py-6 bg-gray-300 md:col-span-2 rounded shadow-2xl">
+        <main className="sm:px-16 sm:py-6 bg-gray-300 md:col-span-2 rounded shadow-2xl">
           <div className="flex gap-2 justify-center sm:justify-end text-sm md:text-md pb-5">
             <a
               href="#"
